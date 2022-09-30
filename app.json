@@ -5,7 +5,7 @@
     "slug": "goal-tracker",
     "owner": "zane01",
     "privacy": "public",
-    "sdkVersion": "25.0.0",
+    "sdkVersion": "41.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
@@ -15,10 +15,21 @@
       "hideExponentText": false
     },
     "packagerOpts": {
-      "assetExts": ["ttf", "mp4"]
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
     },
     "ios": {
       "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5db858b4-5703-4fa2-a337-e72002bd620c"
+      }
+    },
+    "android": {
+      "package": "com.zane01.goaltracker"
     }
   }
 }

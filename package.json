@@ -9,6 +9,7 @@
     "test": "node node_modules/jest/bin/jest.js"
   },
   "dependencies": {
+    "@expo/metro-config": "^0.4.0",
     "date-fns": "^1.29.0",
     "expo": "25.0.0",
     "react": "16.2.0",
